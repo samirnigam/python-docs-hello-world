@@ -24,5 +24,5 @@ def hello():
                  file_list.append(blob.name)
             #print(f'Downloading file [{blob.name}]')
             #blob.download_to_filename(f'./{blob.name}')
-    return "Hello, World!"
+    #return "Hello, World!"
     return file_list
